@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Delights</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-decoration: none;
+            position: sticky;
+        }
+
+        .insta {
+            height: 5.5rem;
+        }
+
+        .burger {
+            height: 3.5rem;
+            margin-top: 1rem;
+        }
+
+        .store_logo {
+            height: 6rem;
+        }
+
+        .store_name {
+            font-size: 1.75rem;
+        }
+
+        .about {
+            margin-left: 7rem;
+            margin-top: 2rem;
+        }
+
+        .about > p {
+            padding-left: 2rem;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        ul li {
+            display: inline;
+        }
+
+        body {
+            background-image: url("bg3.jpg");
+            background-size: 40%;
+        }
+
+        .about {
+            background-color: rgba(122, 84, 56, 0.8);
+            border-radius: 5%;
+            width: 80rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem;
+        }
+
+        .data {
+            width: 60%;
+            text-align: center;
+            word-wrap: break-word;
+        }
+
+        header {
+            background-color: #7A5438;
+        }
+
+        .first {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .product {
+            margin: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .product img {
+            width: 15rem;
+            height: 15rem;
+            border-radius: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .product-description {
+            text-align: center;
+        }
+
+        .innertext {
+            font-size: 6rem;
+            padding-right: 15rem;
+            font-family: cursive;
+            color: rgb(123, 63, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="IPS3.html" class="store_logo"><img class='nav_img store_logo' src="store_logo.png" alt="logo button"></a>
+            <p class="store_name">Sweet Delights</p>
+            <ul class="ul">
+                <li><a href="" class="menu" title="Products"><img class='nav_img burger' src="menu_burger.png" alt="menu button"></a></li>
+                <li><a href="contact.html" title="Contact Us"><img class='nav_img insta' src="insta_cookie2.png" alt="instapage"></a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="about">
+        <div class="data">
+            <div class="first">
+                <div class="product">
+                    <img src="cookie.jpg" alt="Cookie Image">
+                    <div class="product-description">
+                        <h3>Delicious Cookie</h3>
+                        <p>Our signature chocolate chip cookie, baked to perfection. Irresistibly chewy with a rich
+                            flavor.</p>
+                            <p><b>Price: Rs.210</b></p>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="macarons.jpg" alt="Macarons Image">
+                    <div class="product-description">
+                        <h3>Assorted Macarons</h3>
+                        <p>A delightful assortment of colorful macarons. Each bite is a burst of sweet flavors and
+                            delicate textures.</p>
+                            <p><b>Price: Rs.380</b></p>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="cake4.jpg" alt="Cake Image">
+                    <div class="product-description">
+                        <h3>Chocolate Celebration Cake</h3>
+                        <p>Celebrate special moments with our decadent chocolate cake. Rich, moist, and utterly
+                            indulgent.</p>
+                            <p><b>Price: Rs.430</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="first">
+                <div class="product">
+                    <img src="rusk.jpg" alt="Rusk Image">
+                    <div class="product-description">
+                        <h3>Rusk</h3>
+                        <p>Crispy and lightly sweetened rusk, perfect for dipping into your favorite hot beverage.</p>
+                        <p><b>Price: Rs.200</b></p>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="bread.jpg" alt="Bread Image">
+                    <div class="product-description">
+                        <h3>Delicious Bread</h3>
+                        <p>Freshly baked bread with a soft interior and golden crust. Ideal for sandwiches or to accompany your meals.</p>
+                        <p><b>Price: Rs.150</b></p>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="snacks.jpg" alt="Snacks Image">
+                    <div class="product-description">
+                        <h3>Snacks</h3>
+                        <p>From crunchy delights to savory bites, our snacks are the perfect companions for any moment of enjoyment.</p>
+                        <p><b>Price: Rs.300</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

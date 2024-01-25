@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-decoration: none;
+            position: sticky;
+        }
+
+        .insta
+        {
+            height: 5.5rem;
+
+        }
+        .burger
+        {
+            height: 3.5rem;
+            margin-top: 1rem;
+        }
+        .store_logo
+        {
+            height: 6rem;
+        }
+
+        .store_name {
+            font-size: 1.75rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #fff; 
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        ul li {
+            display: inline;
+        }
+
+        body {
+            background-image: url("bg3.jpg");
+            background-size: 40%;
+            margin: 0;
+            font-family: 'Arial', sans-serif; 
+        }
+
+        header {
+            background-color: #7a5438;
+        }
+
+        .about {
+            background-color: rgba(122, 84, 56, 0.8);
+            border-radius: 5%;
+            width: 80%;
+            margin: 2rem auto; 
+            padding: 2rem; 
+            color: #fff; 
+        }
+
+        form {
+            width: 100%; 
+        }
+
+        table {
+            width: 100%; 
+            margin-top: 1rem; 
+        }
+
+        table tr {
+            margin-bottom: 1rem; 
+        }
+
+        table label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #fff;
+        }
+
+        table input,
+        table textarea {
+            width: calc(100% - 1rem);
+            padding: 0.5rem;
+            box-sizing: border-box;
+            border: 1px solid #fff; 
+            border-radius: 4px;
+            background-color: rgba(255, 255, 255, 0.2);
+            color: #fff; 
+        }
+
+        table button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        table button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="IPS3.html" class="store_logo"><img class='nav_img store_logo' src="store_logo.png"
+                    alt="logo button"></a>
+            <p class="store_name">Sweet Delights</p>
+            <ul class="ul">
+                <li><a href="#" class="menu" title="Products"><img class='nav_img burger' src="menu_burger.png"
+                            alt="menu button"></a></li>
+                <li><a href="contact.html" title="Contact Us"><img class='nav_img insta' src="insta_cookie2.png"
+                            alt="instapage"></a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="about">
+        <div class="data">
+            <h2>About us<br><br></h2>
+            <p>At Sweet Delights, we believe that every bite should be a moment of pure joy and indulgence. Established with passion and a commitment to quality, we have been delighting taste buds for over two decades. Our journey began with a simple dream - to create a haven where the aroma of freshly baked treats fills the air, and the taste of our creations leaves a lasting impression.<br><br></p>
+        </div>
+        <form action="#" method="post">
+            <table>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" id="name" name="name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="message">Message:</label></td>
+                    <td><textarea id="message" name="message" rows="4" required></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button type="submit">Submit</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
